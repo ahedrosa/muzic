@@ -1,0 +1,160 @@
+/* AQUI SE ENCONTRARÁN LOS ESTILOS DEL PLUGGIN EN EL FRONT END*/
+
+/*AQUI NO PODEMOS INTRODUCIR PHP POR LO QUE EL CSS DE LOS SETTINGS IRÁ NE OTRO SITIO*/
+
+.events a{
+    text-decoration: none !important;
+    color: none !important;
+}
+
+.album-block-subtitle a{
+    color: inherit;
+}
+
+.cpt-sample{
+    height: 50%;
+    width: 100%;
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+
+ 
+.events .hero-block{
+    color: black;
+    border: solid 4px #000;
+    border-top: none;
+}
+
+.events .hero-title{
+    font-size: 25px;
+    top: -19px;
+    
+}
+.events .hero-wrap{
+    padding: 0;
+}
+.events .hero-title:before, .events .hero-title:after{
+    height: 4px;
+    background: #000;
+    top: 15px;
+}
+.att-box{
+    margin-top: -15px;
+    margin-bottom: 10px;
+    
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+}
+.att-1, .att-2{
+    flex: 1 1 50%;
+}
+.att-3, .att-4{
+    flex: 1 1 100%;
+}
+.att{
+    margin: 5px auto; 
+}
+
+.events .no-overflow{
+    padding-top: 20px;
+}
+
+.space-between{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cpt-box{
+    width: 365px;
+    margin: 15px auto;
+}
+
+.events .masonry{
+    margin: 0 auto;
+}
+.events .container{
+    padding-left: 55px;
+    
+}
+.cpt-atts-container i, .cpt-box i{
+    color:#343434;
+}
+
+.single-event .hero-block{
+    color: black;
+    font-size: 27px;
+}
+
+.single-event .hero-title:before, .single-event .hero-title:after{
+    height: 7px;
+    background: #000;
+    top: 50px;
+}
+
+.single-event .hero-title{
+    top: -60px;
+}
+
+.single-event .hero-block{
+    color: black;
+    border: solid 7px #000;
+    border-top: none;
+}
+
+.cpt-atts-box{
+    margin-top: -45px;
+    margin-bottom: 40px;
+    padding: 0 20px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+}
+.cpt-att{
+    line-height: 3;
+}
+
+.cpt-att-1{
+    flex: 0 1 28%;   
+}
+.cpt-att-2{
+    flex: 0 1 68%;   
+}
+.cpt-att-3{
+    flex: 0 1 45%;   
+}
+.cpt-att-4{
+    flex: 0 1 45%;
+}
+.cpt-att-7{
+    flex: 1 1 100%;
+}
+.r{
+    text-align: right;
+}
+
+.l{
+    text-align: left;
+}
+.cpt-atts-container{
+    margin-bottom:50px;
+}
+
+.single-event .hero-block{
+    margin-bottom: 70px;
+}
+
+.artista, .hora{
+    flex: 1 1 45%;
+}
+
+.artista{
+    padding-left: 25px;
+    text-align: left;
+}

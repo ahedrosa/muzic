@@ -1,0 +1,44 @@
+.custom-form{
+    min-width: 500px;
+    max-height: 350px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: stretch;
+    justify-content: space-evenly;
+}
+.custom-field{
+    width:180px;
+    margin:10px 10px;
+    display:flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-between;
+}
+#range{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#range label{
+    width: 100%;
+}
+
+
+.reset{
+    display: inline-block;
+    width: 120px !important;
+    cursor: pointer;
+    color: #135e96;
+}
+.reset-button{
+    padding: 0 !important;
+}
+.settings-form input{
+    margin: 5px auto !important;
+    
+}
+.custom-form input{
+    
+}
+
