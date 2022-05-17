@@ -77,7 +77,7 @@
     margin: 0 auto;
 }
 .events .container{
-    padding-left: 55px;
+    /*padding-left: 55px;*/
     
 }
 .cpt-atts-container i, .cpt-box i{
@@ -157,4 +157,9 @@
 .artista{
     padding-left: 25px;
     text-align: left;
+}
+@media screen and (max-width: 770px){
+    .blog-single{
+        background-position: center !important;
+    }
 }

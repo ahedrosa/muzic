@@ -379,3 +379,62 @@ textarea{
         padding-top:20px;
     }
 }
+
+@media screen and (max-width: 1200px){
+    .archives .hero-title{
+        top: -48px !important;
+         padding-top:10px;
+    }
+    .archives .hero-text{
+        margin-top: -20px !important;   
+        margin-bottom: 20px !important;   
+    }
+}
+
+@media screen and (max-width: 990px){
+    .archives .hero-title{
+        top: -34px !important;
+        padding-top: 0;
+    }
+    .archives .hero-text{
+        margin-top: -10px !important;   
+        margin-bottom: 20px !important;   
+    }
+}
+
+@media screen and (max-width: 770px){
+    .archives .hero-title:before{
+        background-color: black !important;
+        height: 5px;
+        top: 30px;
+        right: 100%;
+        margin-right: 15px;
+        content: "";
+        position: absolute;
+        width: 111%;
+        background: #fff;
+        display: inline-block;
+    }
+    .archives .hero-title:after{
+        background-color: black !important;
+        height: 5px;
+        top: 30px;
+        left: 100%;
+        margin-right: 15px;
+        content: "";
+        position: absolute;
+        width: 111%;
+        background: #fff;
+        display: inline-block;
+    }
+    
+    .events .hero-title:before,
+    .events .hero-title:after,
+    .single-event .hero-title:before,
+    .single-event .hero-title:after{
+        display: inline-block;
+    }
+}
+
+
+    

@@ -39,7 +39,7 @@
         <div class="row">
           <div class="col-md-12">
             <div class="subpage-wrap">
-              <h2 class="subpage-tilte">CONTACT</h2>
+              <h2 class="subpage-tilte">CONTACTO</h2>
               <span class="subpage-subtitle">
                 ¿Necesitas información extra sobre alguno de nuestros post? ¿O simplemente quiere pasarte a decir "Hola"?
                 Dinos lo que quieras a través de nuestro formulario de contacto.

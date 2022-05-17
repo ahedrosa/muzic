@@ -7,7 +7,7 @@
                     data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="flaticon-interface"></span>
                 </button>
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="<?php echo get_option('HOME')?>">
                     <svg viewBox="-206.61756173741014 -100.00000000000001 568.0117185956218 200.00000000000003" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="jsx-2263963463 artboard-inner" style="width: 142.11px; height: 50.44px; max-height: 100%;">
                         <g transform="translate(-3.545861036677901 42.28410902698122) scale(1.9699227981543892)" fill="#FFFFFF">
                             <g id="line1">
@@ -51,7 +51,6 @@
                     <li><a href="<?php echo get_page_link( get_page_by_title('EVENTS')->ID )?>">EVENTOS</a></li>
                     <li><a href="<?php echo get_page_link( get_page_by_title('CONTACTO')->ID )?>">CONTACTO</a></li>
                     <li><a href="<?php echo get_page_link( get_page_by_title('ARCHIVO')->ID )?>">ARCHIVO</a></li>
-                    <li><a href="<?php echo get_page_link( get_page_by_title('GALERIA')->ID )?>">GALERIA</a></li>
                     <!-- EXTRA -->
                     <li><a href="<?php echo get_page_link( get_page_by_title('LOGIN')->ID )?>">PRIVATE ZONE</a></li>
                 </ul>
