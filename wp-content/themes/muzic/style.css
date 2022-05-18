@@ -3,6 +3,10 @@
       color: inherit !important;
  }
  
+ html{
+     overflow-x: hidden;
+ }
+ 
 .userEnlace {
       text-decoration: none !important;
       color: inherit;
@@ -385,10 +389,12 @@ textarea{
     
 
 
-
-
-
-
+@media screen and (max-width: 992px){
+    .navbar-collapse.in, .navbar-collapse.collapsing {
+       background-color: rgba(1,13,94,.94) !important;
+    }
+    
+}
 
 
 

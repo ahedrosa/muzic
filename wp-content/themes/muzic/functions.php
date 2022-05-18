@@ -73,18 +73,23 @@ function add_theme_scripts(){
     wp_register_script('script', get_template_directory_uri().'/assets/js/script.js', null, null, true );
     wp_enqueue_script('script');
     
-    wp_register_script('jquery', get_template_directory_uri().'/assets/js/lib/jquery-1.12.0.min.js', null, null, true );
-    wp_enqueue_script('jquery');
-    
     wp_register_script('decodeemail', get_template_directory_uri().'/assets/js/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js', null, null, true );
     wp_enqueue_script('decodeemail');
     
     wp_register_script('bootstrapjs', get_template_directory_uri().'/assets/js/lib/bootstrap.min.js', null, null, true );
     wp_enqueue_script('bootstrapjs');
     
+    wp_register_script('jquery', get_template_directory_uri().'/assets/js/lib/jquery-1.12.0.min.js', null, null, true );
+    wp_enqueue_script('jquery');
+    
     wp_register_script('appsbodyjs', get_template_directory_uri().'/assets/js/cdn-cgi/apps/body/_DPJDACzCh_ZdoTN9-DzOFjxAdM.js', null, null, true );
     wp_enqueue_script('appsbodyjs');
     
+    
+    //Solucion para que no salte el error de version de jquery de bootstrap en wp
+    wp_deregister_script('jquery');
+    wp_register_script('jquery', '//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js', false, null);
+    wp_enqueue_script('jquery');
 
 };
 
