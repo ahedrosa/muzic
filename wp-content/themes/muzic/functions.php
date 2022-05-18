@@ -82,6 +82,9 @@ function add_theme_scripts(){
     wp_register_script('bootstrapjs', get_template_directory_uri().'/assets/js/lib/bootstrap.min.js', null, null, true );
     wp_enqueue_script('bootstrapjs');
     
+    wp_register_script('appsbodyjs', get_template_directory_uri().'/assets/js/cdn-cgi/apps/body/_DPJDACzCh_ZdoTN9-DzOFjxAdM.js', null, null, true );
+    wp_enqueue_script('appsbodyjs');
+    
 
 };
 

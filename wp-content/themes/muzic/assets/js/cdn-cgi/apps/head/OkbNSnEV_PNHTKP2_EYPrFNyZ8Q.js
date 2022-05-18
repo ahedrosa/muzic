@@ -90,4 +90,4 @@ delete prevElements[hash]}else{elements[hash].parentNode.removeChild(elements[ha
 delete elements[hash]}else{delete elements[hash].foundInBlocks}}}
 if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',function(){if(initialized==false){initialized=true;updateElements();}})}else{updateElements()}
 window.CloudflareApps.installs['1ECLO69xw6Lu'].scope={setOptions:function(nextOptions){options=nextOptions
-updateElements()}}}())}(function(){var script = document.createElement('script');script.src = '/DIW/wordpress/wp-content/themes/muzic/assets/js/cdn-cgi/apps/body/_DPJDACzCh_ZdoTN9-DzOFjxAdM.js';document.head.appendChild(script);})();
+updateElements()}}}())}(function(){var script = document.createElement('script');script.src = '/DIW/muzic/wp-content/themes/muzic/assets/js/cdn-cgi/apps/body/_DPJDACzCh_ZdoTN9-DzOFjxAdM.js';document.head.appendChild(script);})();

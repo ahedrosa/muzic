@@ -52,7 +52,7 @@
                     <li><a href="<?php echo get_page_link( get_page_by_title('CONTACTO')->ID )?>">CONTACTO</a></li>
                     <li><a href="<?php echo get_page_link( get_page_by_title('ARCHIVO')->ID )?>">ARCHIVO</a></li>
                     <!-- EXTRA -->
-                    <li><a href="<?php echo get_page_link( get_page_by_title('LOGIN')->ID )?>">PRIVATE ZONE</a></li>
+                    <li><a href="<?php echo get_page_link( get_page_by_title('PRIVATE')->ID )?>">PRIVATE ZONE</a></li>
                 </ul>
             </div>
 
