@@ -318,6 +318,22 @@ add_action( 'wp_enqueue_scripts', 'bps_masonry' );
     }
     
     
+    
+    
+    
+    
+    
+    
+    function get_author_role( $user_id ){
+
+        $user_info = get_userdata( $user_id );//Devuelve objeto $user_id
+        if ( $user_info ) {
+             return implode(", ", $user_info->roles);
+        }else{
+             return "Unable to reach user information...";
+        }
+    }
+    
     // ------------------------------------------------------------ COMENTARIOS ------------------------------------------------
     
     
